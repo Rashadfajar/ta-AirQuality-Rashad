@@ -14,7 +14,7 @@ st.set_page_config(
 # Fungsi untuk membaca data
 @st.cache_data
 def load_data():
-    return pd.read_csv('all_data.csv', parse_dates=['date'])
+    return pd.read_csv('Dashboard/all_data.csv', parse_dates=['date'])
 
 # Fungsi visualisasi rata-rata PM2.5 per jam
 def plot_hourly_pm25(data):
