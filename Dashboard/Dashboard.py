@@ -95,6 +95,7 @@ correlation = data[['PM2.5'] + factors].corr()['PM2.5'][factors]
 correlation_df = pd.DataFrame(correlation).T
 st.dataframe(correlation_df)
 
+
 # Catatan penting
 display_notes()
 
